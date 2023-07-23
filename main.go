@@ -26,5 +26,7 @@ func main() {
 		fmt.Println("[INFO] Initialize successfully")
 	})
 
+	fmt.Println("[INFO] Start skills application")
+
 	http.ListenAndServe(":8000", nil)
 }
